@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
+    "gatsby-plugin-google-analytics": "^2.1.31",
     "gatsby-plugin-manifest": "^2.2.31",
     "gatsby-plugin-netlify": "^2.1.30",
     "gatsby-plugin-offline": "^3.0.27",
@@ -22,6 +23,7 @@
     "gatsby-transformer-yaml": "^2.2.20",
     "grommet": "^2.9.0",
     "grommet-icons": "^4.4.0",
+    "lodash": "^4.17.15",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -36,12 +38,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "npx gatsby build",
+    "develop": "npx gatsby clean && npx gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
+    "serve": "npx gatsby serve",
+    "clean": "npx gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
