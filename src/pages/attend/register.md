@@ -7,7 +7,6 @@ title: Register or Volunteer
 
 - [Register to Attend](#register-to-attend)
 - [Volunteering](#volunteering)
-- [Venue (about & directions)](#venue)
 
 ## Register to Attend
 
@@ -89,47 +88,3 @@ Stand ready to step into any of the above roles as necessary.
   - Follow us on [Facebook](https://www.facebook.com/pyohio) and RSVP to the event.
   - Let people know about PyOhio at Meetups and user groups. Let us know if you do!
 - Make a donation to PyOhio via the registration site
-
-## Venue
-
-### About the Venue
-
-PyOhio is held at the [Ohio Union](https://ohiounion.osu.edu/) on the Ohio State University campus.
-
-- [Ohio Union Map](https://ohiounion.osu.edu/whats_inside/building_maps/)
-- PyOhio is held in rooms on the 3rd floor
-- Registration will be in the hallway between the Cartoon Room and the Round Meeting Room
-- [Disability access map](https://ohiounion.osu.edu/posts/documents/ohio-union-disability-map.pdf)
-- Gender-inclusive restrooms: 1st and 2nd floor (rooms 1058T, 1036T, 2070T)
-- Nursing Mother / Lactation room: 2nd floor near women’s restroom
-- Water fountains and bottle fill stations are located throughout the building
-
-### Directions to the Ohio Union
-
-#### Flying
-
-[John Glenn Columbus International Airport (CMH)](https://flycolumbus.com/) is approximately 15 mins East of The Ohio Union.
-
-#### Driving
-
-Please take the time to consult your favorite mapping software before traveling - we can't always account for road construction in our directions.
-
-##### From the North
-
-Take Interstate 71 South to the 17th Avenue exit. Off the exit, turn right to head West on 17th Avenue. Follow 17th Avenue until it dead-ends at Summit Street. Turn left at the traffic light and proceed South on Summit Street. At the first traffic light, turn right onto 15th Avenue. Continue West down 15th Avenue to N. High Street and turn left onto N. High Street. The Ohio Union South Parking Garage will be on your right side.
-
-##### From the South
-
-Take Interstate 71 North to the 17th Avenue exit. Off the exit, turn left to head West on 17th Avenue. Follow 17th Avenue until it dead-ends at Summit Street. Turn left at the traffic light and proceed South on Summit Street. At the first traffic light, turn right onto 15th Avenue. Continue West down 15th Avenue to N. High Street and turn left onto N. High Street. The Ohio Union South Parking Garage will be on your right side.
-
-##### From the East
-
-Take Interstate 70 West to Interstate 71 North. Take 71 North to the 17th Avenue exit. Off the exit, turn left to head West on 17th Avenue. Follow 17th Avenue until it dead-ends at Summit Street. Turn left at the traffic light and proceed South on Summit Street. At the first traffic light, turn right onto 15th Avenue. Continue West down 15th Avenue to N. High Street and turn left onto N. High Street. The Ohio Union South Parking Garage will be on your right side.
-
-##### From the West
-
-Take Interstate 70 East to Interstate 71 North. Take 71 North to the 17th Avenue exit. Off the exit, turn left to head West on 17th Avenue. Follow 17th Avenue until it dead-ends at Summit Street. Turn left at the traffic light and proceed South on Summit Street. At the first traffic light, turn right onto 15th Avenue. Continue West down 15th Avenue to N. High Street and turn left onto N. High Street. The Ohio Union South Parking Garage will be on your right side.
-
-##### From John Glenn Columbus International Airport
-
-Take Interstate 670 West to Interstate 71 North. Take 71 North to the 17th Avenue exit. Off the exit, turn left to head West on 17th Avenue. Follow 17th Avenue until it dead-ends at Summit Street. Turn left at the traffic light and proceed South on Summit Street. At the first traffic light, turn right onto 15th Avenue. Continue West down 15th Avenue to N. High Street and turn left onto N. High Street. The Ohio Union South Parking Garage will be on your right side.
