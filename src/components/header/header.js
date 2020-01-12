@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Header, Box, Paragraph, Anchor } from 'grommet';
+import { Header, Box, Paragraph, Anchor, Text } from 'grommet';
+import { Github } from 'grommet-icons';
 import Logo from '../image/logo';
 
 const CustomHeader = ({ siteTitle }) => (
@@ -36,7 +37,13 @@ const CustomHeader = ({ siteTitle }) => (
       <Box>
         <Paragraph>Sponsorship</Paragraph>
         <Anchor href="/sponsors">Our Sponsors</Anchor>
-        <Anchor href="#">Become a Sponsor</Anchor>
+        <Anchor href="/sponsors/become">Become a Sponsor</Anchor>
+      </Box>
+      <Box>
+        <Anchor href="https://github.com/pyohio/new-pyohio-website">
+          <Text className="sr-only">Website source</Text>
+          <Github />
+        </Anchor>
       </Box>
     </Box>
   </Header>

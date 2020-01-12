@@ -622,3 +622,19 @@ pre tt:after {
   fill: currentColor;
   visibility: visible;
 }
+
+/* from webaim */
+.sr-only {
+  height: 1px;
+  left: -10000px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+
+.sr-only:focus {
+  height: auto;
+  position: static;
+  width: auto; 
+}
