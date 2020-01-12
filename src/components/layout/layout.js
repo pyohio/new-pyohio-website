@@ -28,8 +28,11 @@ const Layout = ({ children }) => {
 
   // Add brand colors here once we're ready for them
   const theme = {
-    // global: {
-    // },
+    global: {
+      font: {
+        family: "Helvetica"
+      }
+    },
   };
 
   return (

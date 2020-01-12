@@ -612,3 +612,13 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+/* end reset */
+.header-permalink.before {
+  position: static;
+}
+
+.header-permalink.before svg {
+  fill: currentColor;
+  visibility: visible;
+}

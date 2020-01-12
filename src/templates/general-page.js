@@ -27,7 +27,7 @@ GeneralPageTemplate.propTypes = {
 
 const GeneralPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const pageTitle = `PyOhio 2020 - ${post.frontmatter.title}`;
+  const pageTitle = `${post.frontmatter.title}`;
   return (
     <Layout>
       <GeneralPageTemplate
