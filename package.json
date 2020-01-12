@@ -39,7 +39,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "npx gatsby build",
+    "build": "npx gatsby build --prefix-paths",
     "develop": "npx gatsby clean && npx gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

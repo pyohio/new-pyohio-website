@@ -6,7 +6,12 @@ import Layout from '../components/layout/layout';
 import Content, { HTMLContent } from '../components/content/content';
 import SEO from '../components/seo/seo';
 
-export const GeneralPageTemplate = ({ title, content, contentComponent, seoTitle }) => {
+export const GeneralPageTemplate = ({
+  title,
+  content,
+  contentComponent,
+  seoTitle,
+}) => {
   const PageContent = contentComponent || Content;
 
   return (

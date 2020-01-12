@@ -7,12 +7,11 @@ import SEO from '../components/seo/seo';
 import Newsletter from '../components/newsletter/newsletter';
 
 export const NewsletterPageTemplate = ({ title, seoTitle }) => {
-
   return (
     <Box>
       <SEO title={seoTitle || title} />
       <Heading>{title}</Heading>
-      <Newsletter/>
+      <Newsletter />
     </Box>
   );
 };

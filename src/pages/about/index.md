@@ -31,7 +31,6 @@ The Open Source Club is on the forefront of technology and code, pushing the bou
 
 Whether you need some help understanding a function, or just someone to bounce ideas off of, there are no better people to talk to than those who are involved in the Open Source Club.
 
-
 ### Where to Find Us
 
 Chat with us on Riot using `#osuosc:matrix.org`

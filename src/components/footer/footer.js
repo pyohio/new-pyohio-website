@@ -4,9 +4,11 @@ import { Footer, Image, Paragraph, Anchor } from 'grommet';
 class CustomFooter extends React.Component {
   render() {
     return (
-      <Footer direction="column">
+      <Footer direction="column" margin={{ bottom: '1.5rem' }}>
         <Paragraph>&copy; 2020 PyOhio</Paragraph>
-        <Paragraph>PyOhio is made possible by our premier sponsor:</Paragraph>
+        <Paragraph margin={{ bottom: '0' }}>
+          PyOhio is made possible by our premier sponsor:
+        </Paragraph>
         <Anchor href="#">
           <Image alt="sponsor" src="https://placekitten.com/150/150" />
         </Anchor>

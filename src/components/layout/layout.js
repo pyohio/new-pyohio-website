@@ -13,7 +13,6 @@ import { Grommet, Box, Main } from 'grommet';
 import CustomHeader from '../header/header';
 import CustomFooter from '../footer/footer';
 import './layout.css';
-import SEO from '../seo/seo';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,14 +29,13 @@ const Layout = ({ children }) => {
   const theme = {
     global: {
       font: {
-        family: "Helvetica"
-      }
+        family: 'Helvetica',
+      },
     },
   };
 
   return (
     <Grommet theme={theme}>
-      <SEO />
       <CustomHeader siteTitle={data.site.siteMetadata.title} />
       <Box
         align="center"

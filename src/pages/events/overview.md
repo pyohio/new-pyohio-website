@@ -28,19 +28,20 @@ Exceptions to to the age policy may only be made in advance by the PyOhio Chair 
 ### Previous Sessions
 
 Additional info on Young Coders and previous classes is available here:
+
 - [YC at PyCon](http://pycon.blogspot.com/2013/03/how-kids-stole-show-young-coders.html)
 - [Interview with Katie Cunningham](http://blog.trinket.io/young-coders-tutorial/)
 - [Katie's Teaching](http://therealkatie.net/teaching/)
 
 ## Reception and Sprints
 
-All PyOhio attendees are invited to informal receptions and sprint sessions on Friday and Saturday evenings. 
+All PyOhio attendees are invited to informal receptions and sprint sessions on Friday and Saturday evenings.
 These events are meant for anyone who would like to meet up with other attendees for informal discussion and/or coding.
 
 ### Event Schedule
 
-* Friday, July 24, 6:00pm-11:00pm
-* Saturday, July 25, 6:30pm-11:00pm
+- Friday, July 24, 6:00pm-11:00pm
+- Saturday, July 25, 6:30pm-11:00pm
 
 ### RSVP
 
@@ -52,20 +53,20 @@ If you plan to attend, please RSVP here so we can get a count for food and refre
 
 The events are being hosted at The Forge by [Pillar Technology part of Accenture Industry X.0](https://pillartechnology.com/forge)
 
-Accenture / The Forge    
-711 N High St    
-9th Floor    
+Accenture / The Forge  
+711 N High St  
+9th Floor  
 Columbus, OH
 
 Free valet parking will be provided to PyOhio attendees!
 
 Important notes:
 
-* Use the valet located at 711 N High St under the Lincoln Social sign, next door to Forno Kitchen & Bar
-* Mention that you are there for "The event at Accenture Forge"
-* Cars must be retrieved from valet before 1am
-* This event is being held on the 9th floor only. Please follow signs and host instructions.
-* Uber / Lyft (at your own cost) are good alternate options
+- Use the valet located at 711 N High St under the Lincoln Social sign, next door to Forno Kitchen & Bar
+- Mention that you are there for "The event at Accenture Forge"
+- Cars must be retrieved from valet before 1am
+- This event is being held on the 9th floor only. Please follow signs and host instructions.
+- Uber / Lyft (at your own cost) are good alternate options
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.3796323934811!2d-83.00388350941188!3d39.97682228828696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88234f6a744fc7b9%3A0xd0c230a717d372f2!2sPillar+part+of+Accenture+Industry+X.0!5e0!3m2!1sen!2sus!4v1563904981454!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -134,7 +135,7 @@ walking distance of the venue.
 
 ### Lightning Talks
 
-**5:15pm-6:15pm** Lightning talks. 5-minute talks on topics of interest to the 
+**5:15pm-6:15pm** Lightning talks. 5-minute talks on topics of interest to the
 PyOhio community. Sign up for a slot on the board near registration.
 
 ### Sprints & Receptions
@@ -166,5 +167,5 @@ to the PyOhio community. Sign up for a spot outside the rooms.
 
 ### Lightning Talks
 
-**5:00pm-6:00pm** Lightning talks. 5-minute talks on topics of interest to the 
+**5:00pm-6:00pm** Lightning talks. 5-minute talks on topics of interest to the
 PyOhio community. Sign up for a slot on the board near registration. -->

@@ -53,9 +53,9 @@ module.exports = {
           {
             resolve: 'gatsby-remark-autolink-headers',
             options: {
-              className: 'header-permalink'
+              className: 'header-permalink',
             },
-          }
+          },
         ],
       },
     },
