@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
         align="center"
         margin={{ top: '0', bottom: '0', left: '1rem', right: '1rem' }}
       >
-        <Main margin={{ bottom: '2.5rem' }} width={{ max: '65ch' }}>
+        <Main margin={{ bottom: '2.5rem' }} width={{ max: '80ch' }}>
           {children}
         </Main>
         <CustomFooter />

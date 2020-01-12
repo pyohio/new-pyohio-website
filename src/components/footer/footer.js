@@ -16,6 +16,7 @@ class CustomFooter extends React.Component {
             alt="Netlify"
           />
         </Anchor>
+        <Anchor href="/about/newsletter">Sign up for our newsletter!</Anchor>
       </Footer>
     );
   }

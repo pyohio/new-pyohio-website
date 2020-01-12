@@ -28,10 +28,10 @@ const CustomHeader = ({ siteTitle }) => (
       </Box>
       <Box>
         <Paragraph>Attend</Paragraph>
-        <Anchor href="/about/code-of-conduct">Code of Conduct</Anchor>
+        <Anchor href="/attend/code-of-conduct">Code of Conduct</Anchor>
         <Anchor href="/attend/register">Register or Volunteer</Anchor>
         <Anchor href="/attend/venue">Venue, Hotels &c</Anchor>
-        <Anchor href="/speak/cfp">Speaking and Call for Proposals</Anchor>
+        <Anchor href="/attend/speak">Speaking and Call for Proposals</Anchor>
       </Box>
       <Box>
         <Paragraph>Sponsorship</Paragraph>
