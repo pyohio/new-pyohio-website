@@ -8,7 +8,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import { Grommet, Box, Main } from 'grommet';
+import { Grommet, Box, Main, Grid } from 'grommet';
 
 import CustomHeader from '../header/header';
 import CustomFooter from '../footer/footer';
@@ -31,21 +31,34 @@ const Layout = ({ children }) => {
       font: {
         family: 'Helvetica',
       },
+      colors: {
+        brand: '#333'
+      }
     },
   };
 
   return (
     <Grommet theme={theme}>
-      <CustomHeader siteTitle={data.site.siteMetadata.title} />
-      <Box
-        align="center"
-        margin={{ top: '0', bottom: '0', left: '1rem', right: '1rem' }}
+      <Grid
+        rows={['xsmall', '1fr', 'small']}
+        columns={{ count: 'fit', size: '240px' }}
+        gap="small"
       >
-        <Main margin={{ bottom: '2.5rem' }} width={{ max: '80ch' }}>
-          {children}
-        </Main>
-        <CustomFooter />
-      </Box>
+        <CustomHeader
+          siteTitle={data.site.siteMetadata.title}
+          style={{ gridRow: 1, gridColumn: '1 / -1' }}
+        />
+        <Box
+          align="center"
+          margin={{ top: '0', bottom: '0', left: '1rem', right: '1rem' }}
+          style={{ gridRow: 2, gridColumn: '1 / -1' }}
+        >
+          <Main margin={{ bottom: '2.5rem' }} width={{ max: '80ch' }}>
+            {children}
+          </Main>
+        </Box>
+        <CustomFooter style={{ gridRow: 3, gridColumn: "1 / -1" }} />
+      </Grid>
     </Grommet>
   );
 };

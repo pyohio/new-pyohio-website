@@ -6,7 +6,7 @@ import { Box } from 'grommet';
 const Logo = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "pyohio-logo-small.png" }) {
+      placeholderImage: file(relativePath: { eq: "pyohio_600.png" }) {
         childImageSharp {
           fluid(maxWidth: 150) {
             ...GatsbyImageSharpFluid
