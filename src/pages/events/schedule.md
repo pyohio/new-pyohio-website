@@ -1,6 +1,7 @@
 ---
-templateKey: general-page
+templateKey: event-page
 title: Event Schedules
+pageKey: sch
 ---
 
 ## Table of Contents

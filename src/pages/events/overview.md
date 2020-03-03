@@ -1,9 +1,10 @@
 ---
-templateKey: general-page
+templateKey: event-page
 title: Events Overview
+pageKey: ov
 ---
 
-Make sure to subscribe to our [newsletter](#) for updates!
+Make sure to subscribe to our [newsletter](/about/newsletter) for updates!
 
 ## Table of Contents
 

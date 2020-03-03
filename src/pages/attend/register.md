@@ -1,6 +1,7 @@
 ---
-templateKey: general-page
+templateKey: attend-page
 title: Register or Volunteer
+pageKey: reg
 ---
 
 ## Table of Contents

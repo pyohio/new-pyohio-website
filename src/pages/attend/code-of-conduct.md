@@ -1,6 +1,7 @@
 ---
-templateKey: general-page
+templateKey: attend-page
 title: Code of Conduct & Reporting Procedure
+pageKey: coc
 ---
 
 ## Table of Contents

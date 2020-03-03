@@ -1,6 +1,7 @@
 ---
-templateKey: general-page
+templateKey: attend-page
 title: Speaking and Call for Proposals
+pageKey: spk
 ---
 
 ## Table of Contents

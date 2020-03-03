@@ -1,6 +1,7 @@
 ---
-templateKey: general-page
+templateKey: sponsor-page
 title: Become a Sponsor
+pageKey: bec
 ---
 
 ## Corporate and Non-Profit Sponsorship

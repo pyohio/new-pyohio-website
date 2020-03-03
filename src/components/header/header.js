@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Header, Box, Paragraph, Anchor, Text } from 'grommet';
+import { Header, Box, Anchor, Text } from 'grommet';
 import { Github } from 'grommet-icons';
 import Logo from '../image/logo';
 
@@ -31,21 +31,16 @@ const CustomHeader = ({ siteTitle, ...props }) => (
           <Anchor href="/about">About PyOhio</Anchor>
         </Box>
         <Box>
-          <Anchor href="/events">Events</Anchor>
-          {/* <Anchor href="/events/overview">Events Overview</Anchor>
-          <Anchor href="/events/schedule">Events Schedules</Anchor> */}
+          <Anchor href="/events/overview">Events</Anchor>
         </Box>
         <Box>
-          <Anchor href="/attend">Attend</Anchor>
-          {/* <Anchor href="/attend/code-of-conduct">Code of Conduct</Anchor>
-          <Anchor href="/attend/register">Register or Volunteer</Anchor>
-          <Anchor href="/attend/venue">Venue, Hotels &c</Anchor>
-          <Anchor href="/attend/speak">Speaking and Call for Proposals</Anchor> */}
+          {/* Change this up later on */}
+          <Anchor href="/attend/register">Attend</Anchor>
         </Box>
         <Box>
-          <Anchor href="/sponsors">Sponsorship</Anchor>
-          {/* <Anchor href="/sponsors">Our Sponsors</Anchor>
-          <Anchor href="/sponsors/become">Become a Sponsor</Anchor> */}
+          {/* Change to sponsors landing when we get a list */}
+          <Anchor href="/sponsors/become">Sponsorship</Anchor>
+
         </Box>
         <Box>
           <Anchor href="https://github.com/pyohio/new-pyohio-website">

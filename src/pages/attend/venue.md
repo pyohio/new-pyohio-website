@@ -1,6 +1,7 @@
 ---
-templateKey: general-page
+templateKey: attend-page
 title: About the Venue and Area
+pageKey: ven
 ---
 
 ## Table of Contents
