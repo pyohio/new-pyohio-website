@@ -35,7 +35,7 @@ Whether you need some help understanding a function, or just someone to bounce i
 
 Chat with us on Riot using `#osuosc:matrix.org`
 
-[Join our Mailing List](https://mailman.cse.ohio-state.edu/mailman/listinfo/opensource)
+[Join the OSUOSC Mailing List](https://mailman.cse.ohio-state.edu/mailman/listinfo/opensource)
 
 ## The PyOhio 2020 Organizing Team
 

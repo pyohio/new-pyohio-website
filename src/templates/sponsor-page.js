@@ -11,21 +11,21 @@ export const SponsorPageTemplate = ({
   content,
   contentComponent,
   seoTitle,
-  pageKey
+  pageKey,
 }) => {
   const PageContent = contentComponent || Content;
 
   const secondaryLinks = [
-      {
-          key: 'roll',
-          href: '/sponsors/',
-          text: 'Our Sponsors'
-      },
-      {
-          key: 'bec',
-          href: '/sponsors/become',
-          text: 'Become a Sponsor'
-      },
+    {
+      key: 'roll',
+      href: '/sponsors/',
+      text: 'Our Sponsors',
+    },
+    {
+      key: 'bec',
+      href: '/sponsors/become',
+      text: 'Become a Sponsor',
+    },
   ];
 
   return (
@@ -38,7 +38,15 @@ export const SponsorPageTemplate = ({
         background="backgroundBack"
         justify="around"
       >
-          {secondaryLinks.map(item => item.key === pageKey ? <></> : <Anchor key={item.key} href={item.href}>{item.text}</Anchor>)}
+        {secondaryLinks.map(item =>
+          item.key === pageKey ? (
+            <></>
+          ) : (
+            <Anchor key={item.key} href={item.href}>
+              {item.text}
+            </Anchor>
+          )
+        )}
       </Box>
       <Heading>{title}</Heading>
       <PageContent className="content" content={content} />
@@ -51,7 +59,7 @@ SponsorPageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   seoTitle: PropTypes.string,
-  pageKey: PropTypes.string
+  pageKey: PropTypes.string,
 };
 
 const SponsorPage = ({ data }) => {

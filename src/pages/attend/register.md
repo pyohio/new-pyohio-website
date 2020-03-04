@@ -40,7 +40,10 @@ Tutorials are free to attend but they require pre-registration. Registration wil
 - See shirt design below
 - T-shirts **MUST BE PICKED UP IN PERSON AT PYOHIO**. We do not have the capacity to ship them. If someone other than you is picking up the shirt please enter their name when completing the t-shirt ticket info.
 
-![PyOhio 2020 shirt design](https://placekitten.com/200/200 'PyOhio 2020 Shirt Design')
+<figure>
+<img src="https://placekitten.com/200/200" alt="PyOhio 2020 Shirt Design">
+<figcaption>This year's t-shirt design (by $name). $Color shirt with the logo themed after $theme.</figcaption>
+</figure>
 
 ## Volunteering
 

@@ -40,7 +40,6 @@ const CustomHeader = ({ siteTitle, ...props }) => (
         <Box>
           {/* Change to sponsors landing when we get a list */}
           <Anchor href="/sponsors/become">Sponsorship</Anchor>
-
         </Box>
         <Box>
           <Anchor href="https://github.com/pyohio/new-pyohio-website">

@@ -11,21 +11,21 @@ export const EventPageTemplate = ({
   content,
   contentComponent,
   seoTitle,
-  pageKey
+  pageKey,
 }) => {
   const PageContent = contentComponent || Content;
 
   const secondaryLinks = [
-      {
-          key: 'ov',
-          href: '/events/overview',
-          text: 'Events Overview'
-      },
-      {
-          key: 'sch',
-          href: '/events/schedule',
-          text: 'Schedule of Events'
-      },
+    {
+      key: 'ov',
+      href: '/events/overview',
+      text: 'Events Overview',
+    },
+    {
+      key: 'sch',
+      href: '/events/schedule',
+      text: 'Schedule of Events',
+    },
   ];
 
   return (
@@ -38,7 +38,15 @@ export const EventPageTemplate = ({
         background="backgroundBack"
         justify="around"
       >
-          {secondaryLinks.map(item => item.key === pageKey ? <></> : <Anchor key={item.key} href={item.href}>{item.text}</Anchor>)}
+        {secondaryLinks.map(item =>
+          item.key === pageKey ? (
+            <></>
+          ) : (
+            <Anchor key={item.key} href={item.href}>
+              {item.text}
+            </Anchor>
+          )
+        )}
       </Box>
       <Heading>{title}</Heading>
       <PageContent className="content" content={content} />
@@ -51,7 +59,7 @@ EventPageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   seoTitle: PropTypes.string,
-  pageKey: PropTypes.string
+  pageKey: PropTypes.string,
 };
 
 const EventPage = ({ data }) => {

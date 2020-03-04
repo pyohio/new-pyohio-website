@@ -623,6 +623,11 @@ pre tt:after {
   visibility: visible;
 }
 
+figure > img {
+  display: block;
+  margin: 1rem auto;
+}
+
 /* from webaim */
 .sr-only {
   height: 1px;
