@@ -37,12 +37,15 @@ export const EventPageTemplate = ({
         pad="medium"
         background="backgroundBack"
         justify="around"
+        wrap="true"
+        margin={{ bottom: 'xsmall' }}
+        style={{ borderRadius: '5px' }}
       >
         {secondaryLinks.map(item =>
           item.key === pageKey ? (
             <></>
           ) : (
-            <Anchor key={item.key} href={item.href}>
+            <Anchor key={item.key} href={item.href} margin="small">
               {item.text}
             </Anchor>
           )
