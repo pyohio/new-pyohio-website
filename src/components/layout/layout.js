@@ -52,7 +52,8 @@ const Layout = ({ children }) => {
   return (
     <Grommet theme={theme}>
       <Grid
-        rows={['xsmall', '1fr', 'medium']}
+        // embiggen footer when we add this year's sponsor
+        rows={['25%', '1fr', ['min-content', '25%']]}
         columns={{ count: 'fit', size: '240px' }}
         gap="small"
       >
@@ -65,7 +66,11 @@ const Layout = ({ children }) => {
           margin={{ top: '0', bottom: '0', left: '1rem', right: '1rem' }}
           style={{ gridRow: 2, gridColumn: '1 / -1' }}
         >
-          <Main margin={{ bottom: '2.5rem' }} width={{ max: '80ch' }}>
+          <Main
+            width={{ max: '80ch' }}
+            border={{ color: 'brand', side: 'bottom', size: '2px' }}
+            style={{ borderRadius: '5px' }}
+          >
             {children}
           </Main>
         </Box>

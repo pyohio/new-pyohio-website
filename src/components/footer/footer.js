@@ -6,15 +6,16 @@ const CustomFooter = props => (
     direction="column"
     margin={{ bottom: '1.5rem' }}
     gap="none"
+    justify="center"
     {...props}
   >
     <Paragraph>&copy; 2020 PyOhio</Paragraph>
-    <Paragraph margin={{ bottom: '0' }}>
+    {/* <Paragraph margin={{ bottom: '0' }}>
       PyOhio is made possible by our premier sponsor:
     </Paragraph>
     <Anchor href="#">
       <Image alt="sponsor" src="https://placekitten.com/150/150" />
-    </Anchor>
+    </Anchor> */}
     <Anchor href="https://www.netlify.com">
       <Image
         src="https://www.netlify.com/img/global/badges/netlify-dark.svg"

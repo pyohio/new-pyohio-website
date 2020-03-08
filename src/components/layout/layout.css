@@ -643,3 +643,10 @@ figure > img {
   position: static;
   width: auto; 
 }
+
+@media only screen and (max-width: 480px) {
+  .bad-nav {
+    flex-direction: column;
+    text-align: right;
+  }
+}
