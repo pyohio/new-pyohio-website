@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import { withPrefix } from 'gatsby';
 import { Header, Box, Anchor, Text } from 'grommet';
 import { Github } from 'grommet-icons';
 import Logo from '../image/logo';
@@ -16,7 +17,7 @@ const CustomHeader = ({ siteTitle, ...props }) => (
       wrap="true"
     >
       <Box>
-        <Anchor href="/">
+        <Anchor href={withPrefix('/')}>
           <Logo />
         </Anchor>
       </Box>
@@ -29,18 +30,18 @@ const CustomHeader = ({ siteTitle, ...props }) => (
         className="bad-nav"
       >
         <Box pad="small">
-          <Anchor href="/about">About PyOhio</Anchor>
+          <Anchor href={withPrefix('/about')}>About PyOhio</Anchor>
         </Box>
         <Box pad="small">
-          <Anchor href="/events/overview">Events</Anchor>
+          <Anchor href={withPrefix('/events/overview')}>Events</Anchor>
         </Box>
         <Box pad="small">
           {/* Change this up later on (/attend/venue maybe?) */}
-          <Anchor href="/attend/register">Attend</Anchor>
+          <Anchor href={withPrefix('/attend/register')}>Attend</Anchor>
         </Box>
         <Box pad="small">
           {/* Change to sponsors landing when we get a list (change word to "Sponsors") */}
-          <Anchor href="/sponsors/become">Sponsorship</Anchor>
+          <Anchor href={withPrefix('/sponsors/become')}>Sponsorship</Anchor>
         </Box>
         <Box pad="small">
           <Anchor href="https://github.com/pyohio/new-pyohio-website">

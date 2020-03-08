@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, withPrefix } from 'gatsby';
 import { Box, Heading, Anchor } from 'grommet';
 import Layout from '../components/layout/layout';
 import Content, { HTMLContent } from '../components/content/content';
@@ -45,7 +45,7 @@ export const SponsorPageTemplate = ({
           item.key === pageKey ? (
             <></>
           ) : (
-            <Anchor key={item.key} href={item.href} margin="small">
+            <Anchor key={item.key} href={withPrefix(item.href)} margin="small">
               {item.text}
             </Anchor>
           )
