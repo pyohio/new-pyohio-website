@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql, withPrefix } from 'gatsby';
-import { Box, Heading, Anchor } from 'grommet';
+import { graphql, Link } from 'gatsby';
+import { Box, Heading, Text } from 'grommet';
 import Layout from '../components/layout/layout';
 import Content, { HTMLContent } from '../components/content/content';
 import SEO from '../components/seo/seo';
@@ -38,6 +38,12 @@ export const AttendPageTemplate = ({
     },
   ];
 
+  // this is to force grommet's styles on to gatsby's links
+  const linkProps = {
+    color: 'control',
+    weight: 'bold',
+  };
+
   return (
     <Box>
       <SEO title={seoTitle || title} />
@@ -55,9 +61,11 @@ export const AttendPageTemplate = ({
           item.key === pageKey ? (
             <></>
           ) : (
-            <Anchor key={item.key} href={withPrefix(item.href)} margin="small">
-              {item.text}
-            </Anchor>
+            <Text {...linkProps}>
+              <Link key={item.key} to={item.href} margin="small">
+                {item.text}
+              </Link>
+            </Text>
           )
         )}
       </Box>

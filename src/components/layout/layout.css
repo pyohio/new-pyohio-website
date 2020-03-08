@@ -614,6 +614,15 @@ pre tt:after {
 }
 
 /* end reset */
+/* this is to fix the link colors since we can't use grommet directly */
+nav a {
+  color: inherit !important;
+}
+
+nav a:visited {
+  color: inherit !important;
+}
+
 .header-permalink.before {
   position: static;
 }

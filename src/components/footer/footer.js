@@ -1,5 +1,12 @@
 import React from 'react';
-import { Footer, Image, Paragraph, Anchor } from 'grommet';
+import { Link } from 'gatsby';
+import { Footer, Image, Paragraph, Anchor, Text } from 'grommet';
+
+// this is to force grommet's styles on to gatsby's links
+const linkProps = {
+  color: 'control',
+  weight: 'bold',
+};
 
 const CustomFooter = props => (
   <Footer
@@ -22,7 +29,9 @@ const CustomFooter = props => (
         alt="Netlify"
       />
     </Anchor>
-    <Anchor href="/about/newsletter">Sign up for our newsletter!</Anchor>
+    <Text {...linkProps}>
+      <Link to="/about/newsletter">Sign up for our newsletter!</Link>
+    </Text>
   </Footer>
 );
 

@@ -1,9 +1,15 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { withPrefix } from 'gatsby';
+import { Link } from 'gatsby';
 import { Header, Box, Anchor, Text } from 'grommet';
 import { Github } from 'grommet-icons';
 import Logo from '../image/logo';
+
+// this is to force grommet's styles on to gatsby's links
+const linkProps = {
+  color: 'control',
+  weight: 'bold',
+};
 
 const CustomHeader = ({ siteTitle, ...props }) => (
   <Header align="center" background="brand" justify="center" {...props}>
@@ -17,9 +23,9 @@ const CustomHeader = ({ siteTitle, ...props }) => (
       wrap="true"
     >
       <Box>
-        <Anchor href={withPrefix('/')}>
+        <Link to="/">
           <Logo />
-        </Anchor>
+        </Link>
       </Box>
       <Box
         direction="row"
@@ -30,18 +36,26 @@ const CustomHeader = ({ siteTitle, ...props }) => (
         className="bad-nav"
       >
         <Box pad="small">
-          <Anchor href={withPrefix('/about')}>About PyOhio</Anchor>
+          <Text {...linkProps}>
+            <Link to="/about">About PyOhio</Link>
+          </Text>
         </Box>
         <Box pad="small">
-          <Anchor href={withPrefix('/events/overview')}>Events</Anchor>
+          <Text {...linkProps}>
+            <Link to="/events/overview">Events</Link>
+          </Text>
         </Box>
         <Box pad="small">
           {/* Change this up later on (/attend/venue maybe?) */}
-          <Anchor href={withPrefix('/attend/register')}>Attend</Anchor>
+          <Text {...linkProps}>
+            <Link to="/attend/register">Attend</Link>
+          </Text>
         </Box>
         <Box pad="small">
           {/* Change to sponsors landing when we get a list (change word to "Sponsors") */}
-          <Anchor href={withPrefix('/sponsors/become')}>Sponsorship</Anchor>
+          <Text {...linkProps}>
+            <Link to="/sponsors/become">Sponsorship</Link>
+          </Text>
         </Box>
         <Box pad="small">
           <Anchor href="https://github.com/pyohio/new-pyohio-website">
