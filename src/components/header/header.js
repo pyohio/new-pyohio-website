@@ -10,7 +10,6 @@ const CustomHeader = ({ siteTitle, ...props }) => (
     <Box
       pad="1rem"
       direction="row"
-      // gap="medium"
       align="center"
       justify="around"
       width="100%"
@@ -25,10 +24,7 @@ const CustomHeader = ({ siteTitle, ...props }) => (
         direction="row"
         as="nav"
         flex={{ grow: 1 }}
-        // fill="true"
         justify="end"
-        // pad="small"
-        // gap="medium"
         wrap="true"
         className="bad-nav"
       >
