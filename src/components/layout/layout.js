@@ -69,7 +69,7 @@ const Layout = ({ children }) => {
           <Main
             width={{ max: '80ch' }}
             border={{ color: 'brand', side: 'bottom', size: '2px' }}
-            style={{ borderRadius: '5px' }}
+            style={{ borderRadius: '0 0 5px 5px' }}
           >
             {children}
           </Main>

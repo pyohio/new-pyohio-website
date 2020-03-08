@@ -47,12 +47,14 @@ export const AttendPageTemplate = ({
         pad="medium"
         background="backgroundBack"
         justify="around"
+        wrap="true"
+        style={{ borderRadius: '5px' }}
       >
         {secondaryLinks.map(item =>
           item.key === pageKey ? (
             <></>
           ) : (
-            <Anchor key={item.key} href={item.href}>
+            <Anchor key={item.key} href={item.href} margin="xsmall">
               {item.text}
             </Anchor>
           )
