@@ -43,8 +43,9 @@
     "develop": "npx gatsby clean && npx gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "npx gatsby serve",
+    "serve": "npx gatsby serve --prefix-paths",
     "clean": "npx gatsby clean",
+    "production": "npm run clean && npm run build && npm run serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
