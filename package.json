@@ -45,7 +45,8 @@
     "start": "npm run develop",
     "serve": "npx gatsby serve --prefix-paths",
     "clean": "npx gatsby clean",
-    "production": "npm run clean && npm run build",
+    "move": "cd public && mkdir 2020 | mv * 2020",
+    "production": "npm run clean && npm run build && npm run move",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
